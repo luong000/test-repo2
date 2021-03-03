@@ -1,0 +1,13 @@
+title: Columns
+areas:
+  col1: &col
+    title: Column Area
+    availableComponents:
+      Image:
+        id: spa-website-lm:components/Image
+      RichText:
+        id: spa-website-lm:components/RichText
+      Title:
+        id: spa-website-lm:components/Title
+  col2: *col
+

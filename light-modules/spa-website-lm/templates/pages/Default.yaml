@@ -1,0 +1,37 @@
+title: SPA Website - Default
+templateScript: /spa-website-lm/webresources/build/index.html
+dialog: spa-website-lm:pages/Default
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+areas:
+  jumbotron:
+    title: Jumbotron Area
+    type: single
+    availableComponents:
+      Article:
+        id: spa-website-lm:components/Article
+      Event:
+        id: spa-website-lm:components/Event
+  main:
+    title: Main Area
+    availableComponents:
+      ArticlesList:
+        id: spa-website-lm:components/ArticlesList
+      Banner:
+        id: spa-website-lm:components/Banner
+      Columns:
+        id: spa-website-lm:components/Columns
+      ToursList:
+        id: spa-website-lm:components/ToursList
+      EventsList:
+        id: spa-website-lm:components/EventsList
+      Image:
+        id: spa-website-lm:components/Image
+      RichText:
+        id: spa-website-lm:components/RichText
+      Title:
+        id: spa-website-lm:components/Title
+      CTA:
+        id: spa-website-lm:components/CTA
+      CurationBar:
+        id: spa-website-lm:components/CurationBar

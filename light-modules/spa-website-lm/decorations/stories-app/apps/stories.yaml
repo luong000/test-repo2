@@ -1,0 +1,21 @@
+subApps:
+  browser:
+    workbench:
+      contentViews:
+        - name: tree
+          columns:
+            - name: tags
+              label: Tags
+              class: info.magnolia.contenttags.column.TagsColumnDefinition
+              propertyName: mgnl:tags
+              width: 160
+
+  editor:
+    contentDefinition:
+      outlineFields:
+        newsTags:
+          class: info.magnolia.contenttags.form.field.TagFieldDefinition
+          label: Tags
+          targetWorkspace: tags
+          appName: tags
+          styleName: lead-text

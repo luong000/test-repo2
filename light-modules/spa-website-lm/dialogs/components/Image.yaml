@@ -1,0 +1,6 @@
+label: Image
+form:
+  properties:
+    image:
+      label: Select image
+      $type: damLinkField

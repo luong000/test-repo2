@@ -1,0 +1,8 @@
+!content-type:event
+name: events
+label: Events
+
+# Optionally override any of the app configuration supplied by the content type.
+subApps:
+  detail:
+    label: Detail Event

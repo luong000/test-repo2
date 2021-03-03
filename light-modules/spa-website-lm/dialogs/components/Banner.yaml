@@ -1,0 +1,10 @@
+label: Banner
+form:
+  properties:
+    richText:
+      label: Rich text
+      $type: richTextField
+      i18n: true
+    image:
+      label: Select image
+      $type: damLinkField

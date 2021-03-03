@@ -1,0 +1,33 @@
+label: CTA
+form:
+  properties:
+    title:
+      label: Title
+      $type: textField
+      i18n: true
+    ctaType:
+      $type: radioButtonGroupField
+      label: Type of Call-to-action
+      datasource:
+        $type: optionListDatasource
+        options:
+          - name: button
+            value: button
+            label: Button
+          - name: email
+            value: email
+            label: Email field and button
+    details:
+      label: Details
+      $type: richTextField
+      i18n: true
+    buttonText:
+      label: CTA Button text
+      $type: textField
+      i18n: true
+    targetPage:
+      label: Destination Page
+      $type: linkField
+      chooser:
+        workbenchChooser:
+          appName: pages-app
