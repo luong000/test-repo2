@@ -1,3 +1,3 @@
-title: Public Home Page Test
+title: Public Home Page Hello
 templateScript: /public-home-page/templates/pages/public-home-page.ftl
 renderType: freemarker
