@@ -1,2 +1,2 @@
 # Description
-SPA Demo on the Cloud - Demo
+SPA Demo on the Cloud - Demo Cloud
