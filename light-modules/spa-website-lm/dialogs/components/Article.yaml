@@ -1,9 +1,0 @@
-label: Article
-form:
-  properties:
-    article:
-      label: Select article
-      $type: linkField
-      chooser:
-        workbenchChooser:
-          appName: stories

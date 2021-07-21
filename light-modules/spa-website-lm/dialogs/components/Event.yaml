@@ -1,9 +1,0 @@
-label: Event
-form:
-  properties:
-    event:
-      label: Select event
-      $type: linkField
-      chooser:
-        workbenchChooser:
-          appName: events

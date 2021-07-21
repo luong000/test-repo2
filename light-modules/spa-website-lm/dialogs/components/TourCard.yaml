@@ -1,9 +1,0 @@
-label: Tour Card
-form:
-  properties:
-    tour:
-      label: Select Tour
-      $type: linkField
-      chooser:
-        workbenchChooser:
-          appName: tours

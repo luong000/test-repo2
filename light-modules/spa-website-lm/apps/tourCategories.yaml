@@ -1,9 +1,0 @@
-!content-type:tourCategory
-name: tourCategories
-label: Tour Categories
-icon: icon-categories
-
-# Optionally override any of the app configuration supplied by the content type.
-subApps:
-  detail:
-    label: Detail Tour Category

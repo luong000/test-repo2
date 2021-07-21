@@ -1,7 +1,0 @@
-label: Rich Text
-form:
-  properties:
-    richText:
-      label: Rich text
-      $type: richTextField
-      i18n: true

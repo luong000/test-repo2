@@ -1,7 +1,0 @@
-label: Page properties
-form:
-  properties:
-    text:
-      label: Window title
-      $type: textField
-      i18n: true
